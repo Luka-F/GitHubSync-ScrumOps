@@ -17,7 +17,7 @@
     "priority": 2,
     "tags": [],
     "relations": [],
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "id": 1
   },
@@ -39,7 +39,7 @@
     "priority": 2,
     "tags": [],
     "relations": [],
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "id": 2
   },
@@ -64,7 +64,7 @@
       "core"
     ],
     "relations": [],
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "id": 3
   },
@@ -72,15 +72,15 @@
     "type": "Task",
     "title": "Build Kanban board layout",
     "description": "",
-    "state": "In Progress",
+    "state": "To Do",
     "parentId": 3,
     "sprintId": 1,
     "areaPath": "ScrumOps",
     "iterationPath": "ScrumOps\\Sprint 1",
-    "assignedTo": "You",
+    "assignedTo": "Luka",
     "createdBy": "You",
     "createdDate": "2026-02-20T11:23:04.046Z",
-    "changedDate": "2026-02-20T11:23:04.046Z",
+    "changedDate": "2026-02-20T15:25:43.019Z",
     "effort": 0,
     "remainingWork": 2,
     "priority": 1,
@@ -88,7 +88,8 @@
     "relations": [],
     "_syncStatus": "local",
     "_etag": null,
-    "id": 4
+    "id": 4,
+    "originalEstimate": 0
   },
   {
     "type": "Task",
@@ -108,13 +109,13 @@
     "priority": 2,
     "tags": [],
     "relations": [],
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "id": 5
   },
   {
     "type": "Bug",
-    "title": "Card drops outside column area",
+    "title": "BUG Card drops outside column area",
     "description": "",
     "state": "New",
     "parentId": 2,
@@ -124,7 +125,7 @@
     "assignedTo": "",
     "createdBy": "You",
     "createdDate": "2026-02-20T11:23:04.046Z",
-    "changedDate": "2026-02-20T11:23:04.046Z",
+    "changedDate": "2026-02-20T15:24:40.624Z",
     "effort": 0,
     "remainingWork": 0,
     "priority": 1,
@@ -134,7 +135,8 @@
     "relations": [],
     "_syncStatus": "local",
     "_etag": null,
-    "id": 6
+    "id": 6,
+    "originalEstimate": 0
   },
   {
     "type": "User Story",
@@ -148,7 +150,7 @@
     "tags": [],
     "createdDate": "2026-02-20T11:23:14.545Z",
     "changedDate": "2026-02-20T11:23:14.545Z",
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "relations": [],
     "id": 7
@@ -165,9 +167,28 @@
     "tags": [],
     "createdDate": "2026-02-20T11:32:07.241Z",
     "changedDate": "2026-02-20T11:32:07.241Z",
-    "_syncStatus": "local",
+    "_syncStatus": "synced",
     "_etag": null,
     "relations": [],
     "id": 8
+  },
+  {
+    "type": "Task",
+    "title": "New Task",
+    "state": "To Do",
+    "assignedTo": "",
+    "remainingWork": 0,
+    "originalEstimate": 0,
+    "parentId": 6,
+    "sprintId": 1,
+    "description": "",
+    "tags": [],
+    "createdDate": "2026-02-20T15:24:52.925Z",
+    "changedDate": "2026-02-20T15:25:01.825Z",
+    "_syncStatus": "local",
+    "_etag": null,
+    "relations": [],
+    "id": 9,
+    "effort": 0
   }
 ]
