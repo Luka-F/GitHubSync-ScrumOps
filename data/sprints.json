@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Sprint 1",
+    "iterationPath": "ScrumOps\\Sprint 1",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "endDate": "2026-02-14T00:00:00.000Z",
+    "state": "Active",
+    "goal": "Ship the core board experience.",
+    "id": 1
+  }
+]
